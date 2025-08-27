@@ -17,7 +17,7 @@ public class Main extends JavaPlugin {
     private static final String LICENSE_API_SECRET = "ee1eb49a-f5f5-4b2c-afdd-491cc59a3ada";
 
     // Hardcoded GitHub repo voor updatechecker (owner/repo)
-    private static final String GITHUB_REPO = "owner/bankheist-plugin";
+    private static final String GITHUB_REPO = "sam-van-elsbergen/the-maybe-project";
 
     private static Main instance;
     private Economy economy;

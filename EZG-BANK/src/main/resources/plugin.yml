@@ -1,34 +1,18 @@
-license-key: "JOUW-LICENSE-SLEUTEL-HIER"
-
-license-user-id: ""
-language: "nl" # opties: en, nl, be
-
-reward:
-  item:
-    material: "GHAST_TEAR"
-    display-name: "ZWART geld" # optionele naam (kleuren met &)
-    min: 4                  # minimum aantal
-    max: 10                 # maximum aantal
-
-required-items:
-  - material: "IRON_HOE"
-    amount: 1
-  - material: "DIAMOND"
-    amount: 0
-
-consume-required-items: true
-
-banks:
-  regions:
-    - "bank_region_1"
-    - "bank_region_2"
-  coordinates:
-    - world: "world"
-      x: 100
-      y: 64
-      z: 200
-
-heist:
-  duration: 60       # duur in seconden
-  cooldown: 300      # cooldown in seconden
-  max-distance: 100  # max afstand in blokken
+name: EZG-BANK
+version: '${project.version}'
+main: nl.samskeee.ezgbank.Main
+api-version: '1.15'
+author: Itsdevsam / __DieEneRus__
+depend: [Vault]
+softdepend: [WorldGuard, WorldEdit]
+commands:
+  bankoverval:
+    description: Start een bankoverval of controleer status.
+    usage: /<command> [start|status]
+  bankadmin:
+    description: Admin commands voor banken (add/remove/list).
+    usage: /bankadmin <subcommand>
+permissions:
+  ezgbank.admin:
+    description: Beheer banken
+    default: op
