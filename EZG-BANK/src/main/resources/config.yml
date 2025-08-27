@@ -1,0 +1,25 @@
+license-key: "JOUW-LICENSE-SLEUTEL-HIER"
+language: "nl"
+
+min-blackmoney: 1000
+max-blackmoney: 5000
+
+banks:
+  regions:
+    - "bank_region_1"
+    - "bank_region_2"
+
+  coordinates:
+    - world: "world"
+      x: 100
+      y: 64
+      z: 200
+    - world: "world"
+      x: 250
+      y: 64
+      z: -50
+
+heist:
+  duration: 60
+  cooldown: 300
+  max-distance: 100

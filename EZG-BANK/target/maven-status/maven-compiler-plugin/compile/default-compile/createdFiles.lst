@@ -1,0 +1,8 @@
+nl\samskeee\ezgbank\Main.class
+nl\samskeee\ezgbank\commands\BankAdminCommand.class
+nl\samskeee\ezgbank\utils\ConfigManager.class
+nl\samskeee\ezgbank\Managers\LicenseManager.class
+nl\samskeee\ezgbank\update\UpdateChecker.class
+nl\samskeee\ezgbank\commands\HeistCommand$1.class
+nl\samskeee\ezgbank\commands\HeistCommand.class
+nl\samskeee\ezgbank\utils\RegionUtils.class
